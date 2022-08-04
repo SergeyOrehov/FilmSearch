@@ -1,0 +1,21 @@
+.mainFooter {
+   background: #3a3a3a;
+   color: #fff;
+   font-size: 20px;
+   padding: 50px 0;
+   .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .centerText {
+         line-height: 27px;
+      }
+      .develop {
+         font-weight: bold;
+         span {
+            font-size: 18px;
+            line-height: 25px;
+         }
+      }
+   }
+}

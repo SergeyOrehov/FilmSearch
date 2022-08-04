@@ -1,0 +1,39 @@
+.mainHeader {
+   margin-bottom: 90px;
+   .container {
+      .headerNav {
+         display: flex;
+         justify-content: space-between;
+         .menu {
+            display: flex;
+            li {
+               display: inline-block;
+               margin-right: 60px;
+               list-style-type: none;
+               font-style: normal;
+               font-weight: normal;
+               font-size: 20px;
+               line-height: 27px;
+               color: #ffffff;
+               a {
+                  text-decoration: none;
+               }
+               a:visited {
+                  color: #ffffff;
+               }
+               a:hover {
+                  text-decoration: underline;
+                  color: #e59c9c;
+               }
+               a.active {
+                  text-decoration: underline;
+                  color: #e59c9c;
+               }
+            }
+            li:last-child {
+               margin-right: 0;
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,19 @@
+.aboutUsWrapper {
+   background: #fff;
+   padding: 40px 90px 40px;
+   border-radius: 20px;
+   margin-bottom: 100px;
+   display: flex;
+   img {
+      width: 409px;
+   }
+   .info {
+      width: 594px;
+      margin-left: 50px;
+      p {
+         font-size: 15px;
+         line-height: 140%;
+         color: #000000;
+      }
+   }
+}

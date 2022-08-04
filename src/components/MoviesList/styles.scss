@@ -1,0 +1,13 @@
+.MoviesList {
+   display: flex;
+   flex-wrap: wrap;
+   align-content: space-between;
+}
+
+.MoviesList .description:nth-child(4n) {
+   margin-right: 0;
+}
+
+.MoviesList .description:first-child {
+   margin-bottom: 40px;
+}

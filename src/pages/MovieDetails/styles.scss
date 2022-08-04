@@ -1,0 +1,79 @@
+.movieDetailsWrapper {
+   display: flex;
+   background: #fff;
+   padding: 40px 90px 100px 90px;
+   border-radius: 20px;
+   margin-bottom: 100px;
+   position: relative;
+   .rating {
+      position: absolute;
+      top: 42x;
+      right: 90px;
+      display: flex;
+      align-items: center;
+      font-weight: 800;
+      font-size: 27px;
+      line-height: 37px;
+      text-transform: uppercase;
+      color: #333333;
+      span {
+         margin-left: 11px;
+      }
+   }
+   .imgItem {
+      width: 229px;
+      height: 339px;
+      filter: drop-shadow(0px 5px 25px rgba(119, 119, 119, 0.08));
+      img {
+         width: 100%;
+         height: 100%;
+         border-radius: 20px;
+      }
+   }
+   .descriptionMovie {
+      width: 795px;
+      margin-left: 25px;
+      text-transform: uppercase;
+      color: #333333;
+      h2 {
+         font-weight: bold;
+         font-size: 28px;
+         line-height: 100.68%;
+         color: #e59c9c;
+         margin-bottom: 65px;
+      }
+      .info {
+         display: flex;
+         align-items: center;
+         margin-bottom: 22px;
+         span {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            width: 120px;
+            margin-right: 50px;
+         }
+         .text {
+            font-size: 16px;
+            line-height: 22px;
+            text-align: justify;
+            text-transform: none;
+         }
+         p {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+         }
+         .depiction {
+            margin-right: 70px;
+         }
+      }
+      .info:last-child {
+         align-items: baseline;
+      }
+   }
+   .noFoto {
+      border: 1px solid black;
+      border-radius: 20px;
+   }
+}
